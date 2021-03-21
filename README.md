@@ -34,7 +34,13 @@ NumberOfTime60-89DaysPastDueNotWorse - Number of times borrower has been 60-89 d
 
 NumberOfDependents - Number of dependents in family excluding themselves
 
-##Evaluation Metric
+
+## Challenge
+As with all the delinquency prolems, we have major class imbalance here.
+92 % of customers belong to no delinquency class and 8 % for delinquency class.
+We applied methods like oversampling, undersamplaing and SMOTE to tackle this problem. 
+
+## Evaluation Metric
 
 Recall - True Positive/True Positive + False Negative
 
